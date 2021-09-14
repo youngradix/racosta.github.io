@@ -1,0 +1,61 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Robinson Acosta">
+        <meta name="description" content="Robinson Acosta's Resume, Github, LinkedIn, Email">
+        <meta name="keywords" content="radix, dev, robinson, acosta">
+        <title>Robinson Acosta</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="https://kit.fontawesome.com/85702c37cf.js" crossorigin="anonymous"></script>
+        <script src="baffle.min.js"></script>
+        <script>
+          setTimeout(function() {
+          let b = baffle('.crypto', {
+          characters: '01',
+          speed: 80
+          }).start();
+          b.reveal(1000, 2500);}, 2600)
+         </script>
+    </head>
+    <body>
+          <div id="wrapper">
+              <div id="bg"></div>
+              <div id="overlay"></div>
+              <div id="main">
+                  <header id="header">
+                      <h1>
+                        <div class="console-container">
+                          <span id="text" style="color:white">Robinson Acosta</span>
+                          <div class="console-underscore hidden" id="console">
+                          </div>
+                        </div>
+                      </h1>
+                      <p>
+                        <span class="crypto">Cybersecurity</span>
+                          •
+                         <span class="crypto">Coding</span>
+                          •
+                         <span class="crypto">Drone Building & Piloting</span>
+                       </p>
+                       <nav>
+                         <ul>
+                           <li title="Email"><a href="mailto:Robinsonacosta1@gmail.com" aria-label="Email" class="icon solid fa-envelope" target="_self"><span class="label">Email</span></a></li>
+                           <li title="Resume"><a href="mySite/RACR.docx" aria-label="Resume" class="icon solid fa-file" target="_self"><span class="label">Resume</span></a></li>
+                           <li title="Github"><a href="https://github.com/youngradix" aria-label="Github" class="icon brands fa-github-square" target="_self"><span class="label">Github</span></a></li>
+                           <li title="Linkedin"><a href="https://www.linkedin.com/in/robinson-acosta-a5b798189" aria-label="Linkedin" class="icon brands fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+                         </ul>
+                       </nav>
+                  </header>
+            </div>
+            <div id="footer">
+            Copyright &copy: 2020 Robinson Acosta
+            </div>
+        <script>
+			     window.onload = function() { document.body.classList.remove('is-preload'); }
+			     window.ontouchmove = function() { return false; }
+			     window.onorientationchange = function() { document.body.scrollTop = 0; }
+          </script>
+    </body>
+</html>
