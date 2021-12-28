@@ -99,7 +99,7 @@
 		background-repeat:no-repeat;
 		left: 0;
 		opacity: 1;
-		position:static;
+		position:relative;
 		top: 0;
 	}
 
