@@ -92,7 +92,7 @@
 	}
 */	/* Set your background with this */
 	#bg {
-		background-image: url("waterRocks.jpg");
+		background-image: url("/docs/images/waterRocks.jpg");
 		background-size:100%;
 		height: 100%;
 		width: 100%;
