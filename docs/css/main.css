@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster");
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap');
-@import "fontawesome-all.min.css";
+@import url("fontawesome-all.min.css");
 
 /*.waves {
     position: absolute;
@@ -68,7 +68,6 @@
     }
 }
 */
-
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -301,8 +300,7 @@ input, select, textarea {
 	/* Set your background with this */
 	#bg {
 		background-image: url("iceland.jpg");
-		background: center center fixed;
-		background-size: cover!important;
+		/*background-size: cover!important;*/
 		height: 100%;
 		width: 100%;
 		/*background-repeat:no-repeat;*/
