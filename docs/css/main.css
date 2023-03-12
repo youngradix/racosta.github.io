@@ -232,7 +232,7 @@ input, select, textarea {
 	#bg {
 		background-image: url("building.jpg");
 		/*background-size:100%;*/
-		background-size: ccover!important;
+		background-size: cover!important;
 		height: 100%;
 		width: 100%;
 		background-repeat:no-repeat;
