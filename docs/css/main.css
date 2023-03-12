@@ -299,7 +299,8 @@ input, select, textarea {
 	} */
 	/* Set your background with this */
 	#bg {
-		background-image: url("iceland.jpg");
+		/*background-image: url("iceland.jpg");*/
+		background: linear-gradient(45deg,rgba(218, 142, 42, 0.25) 0%,rgb(211, 140, 74) 100%) center center fixed;
 		/*background-size: cover!important;*/
 		height: 100%;
 		width: 100%;
