@@ -3,6 +3,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap');
 @import "fontawesome-all.min.css";
 
+/*.waves {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 30vh;
+    transition: opacity 8s cubic-bezier(1,0,.1,.89);
+    animation: fade_in_waves 8s
+}
+
+@media screen and (max-width: 720px) {
+    .waves {
+        margin:0 auto;
+        margin-bottom: -1em;
+        height: 15vh
+    }
+}
+
+@keyframes fade_in_waves {
+    0% {
+        opacity: 0
+    }
+
+    30% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0)
+    }
+
+    100% {
+        transform: translate3d(85px,0,0)
+    }
+}
+*/
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -19,11 +86,13 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
 
 body {
 	line-height: 1;
@@ -48,7 +117,7 @@ table {
 }
 
 body {
-	-webkit-text-size-adjust: none;
+	/*-webkit-text-size-adjust: none;*/
 }
 
 mark {
@@ -87,6 +156,7 @@ input, select, textarea {
 	}
 
 	body {
+		background: #fff;
 		overflow:hidden;
 	}
 
@@ -199,7 +269,7 @@ input, select, textarea {
 		}
 	}
 
-	/*#wrapper {
+	#wrapper {
 		-moz-animation: wrapper 3s forwards;
 		-webkit-animation: wrapper 3s forwards;
 		-ms-animation: wrapper 3s forwards;
@@ -230,12 +300,12 @@ input, select, textarea {
 	} */
 	/* Set your background with this */
 	#bg {
-		background-image: url("building.jpg");
-		/*background-size:100%;*/
+		background-image: url("iceland.jpg");
+		background: center center fixed;
 		background-size: cover!important;
 		height: 100%;
 		width: 100%;
-		background-repeat:no-repeat;
+		/*background-repeat:no-repeat;*/
 		left: 0;
 		opacity: 1;
 		top: 0;
@@ -305,10 +375,10 @@ input, select, textarea {
 		}
 	}
 
-	#bg {
+	/*#bg {
 		background-size: 2250px auto;
 		width: 6750px;
-	}
+	}*/
 
 /* Overlay */
 
@@ -358,7 +428,7 @@ input, select, textarea {
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+		background-image: url("overlay-pattern.png"), url("overlay.svg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -675,45 +745,45 @@ input, select, textarea {
 				display: inline-block;
 			}
 
-				#header nav a:before {
-					-moz-transition: all 0.2s ease-in-out;
-					-webkit-transition: all 0.2s ease-in-out;
-					-ms-transition: all 0.2s ease-in-out;
-					transition: all 0.2s ease-in-out;
-					border-radius: 100%;
-					border: solid 1px #fff;
-					display: block;
-					font-size: 1.75em;
-					height: 2.5em;
-					line-height: 2.5em;
-					position: relative;
-					text-align: center;
-					top: 0;
-					width: 2.5em;
-				}
+			#header nav a:before {
+				-moz-transition: all 0.2s ease-in-out;
+				-webkit-transition: all 0.2s ease-in-out;
+				-ms-transition: all 0.2s ease-in-out;
+				transition: all 0.2s ease-in-out;
+				border-radius: 100%;
+				border: solid 1px #fff;
+				display: block;
+				font-size: 1.75em;
+				height: 2.5em;
+				line-height: 2.5em;
+				position: relative;
+				text-align: center;
+				top: 0;
+				width: 2.5em;
+			}
 
-				#header nav a:hover {
-					font-size: 1.1em;
-				}
+			#header nav a:hover {
+				font-size: 1.1em;
+			}
 
-					#header nav a:hover:before {
-						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
-					}
+			#header nav a:hover:before {
+				background-color: rgba(255, 255, 255, 0.175);
+				color: #fff;
+			}
 
-				#header nav a:active {
-					font-size: 0.95em;
-					background: none;
-				}
+			#header nav a:active {
+				font-size: 0.95em;
+				background: none;
+			}
 
-					#header nav a:active:before {
-						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
-					}
+			#header nav a:active:before {
+				background-color: rgba(255, 255, 255, 0.35);
+				color: #fff;
+			}
 
-				#header nav a span {
-					display: none;
-				}
+			#header nav a span {
+				display: none;
+			}
 
 /* Footer */
 
@@ -1025,7 +1095,7 @@ input, select, textarea {
 					transform: translate3d(-412.5px,0,0);
 				}
 
-	}
+			}
 
 		@-webkit-keyframes bg {
 			0% {
@@ -1041,7 +1111,7 @@ input, select, textarea {
 				-ms-transform: translate3d(-412.5px,0,0);
 				transform: translate3d(-412.5px,0,0);
 			}
-			}
+		}
 
 		@-ms-keyframes bg {
 			0% {
@@ -1083,4 +1153,5 @@ input, select, textarea {
 	/* Header */
 		#header nav {
 			padding: 0 1em;
-		} }
+		} 
+	}
