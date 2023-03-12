@@ -231,7 +231,8 @@ input, select, textarea {
 	/* Set your background with this */
 	#bg {
 		background-image: url("building.jpg");
-		background-size:100%;
+		/*background-size:100%;*/
+		background-size: ccover!important;
 		height: 100%;
 		width: 100%;
 		background-repeat:no-repeat;
